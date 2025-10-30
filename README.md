@@ -151,33 +151,3 @@ This project successfully demonstrates the development of a **machine learning p
 The analysis revealed that **online transactions**, **high-value payments**, and **younger or senior cardholders** are more susceptible to fraud, while **transaction type** emerged as the most influential predictor. These findings can guide banks and payment systems in setting **dynamic verification rules** — for instance, triggering alerts for international or online transactions above certain thresholds.
 
 The **Decision Tree Classifier** achieved an **accuracy of 70%**, **precision of 0.80**, **recall of 0.67**, and an **F1-score of 0.73**, indicating a balanced and moderately strong model. These results show that the model is **highly precise** in identifying fraudulent transactions — when it predicts fraud, it is correct most of the time — but it also **misses about one-third of actual frauds**, which is a common trade-off in fraud detection problems.
-
-### 10. AI-Assisted Question–Answer Workflow
-
-1. How can I identify which features are most influential in predicting fraud?
-	**Implementation:**  
-	Used the correlation matrix and `DecisionTreeClassifier.feature_importances_` to rank predictors.  
-	
-	**Result:**  
-	`TransactionType` showed the highest influence (0.15 correlation with fraud), indicating that **online or POS** transactions are more likely to be fraudulent.
-
-2. Is the dataset balanced, and how does imbalance affect model performance?
-	**Implementation:**  
-	`df['FraudReported'].value_counts()`  
-	→ Fraud: 29 | Non-Fraud: 21  
-	
-	**Insight:**  
-	Slight imbalance (58% fraud). Accuracy alone can mislead in such cases; need **precision** and **recall** metrics to judge the model fairly.
-
-3. Does the cardholder’s age affect fraud likelihood?
-	**Implementation:**  
-	Split data into age groups (<30, 30–60, >60) and plotted fraud counts using bar charts.  
-	**Insight:**  
-	**Young (<30)** and **senior (>60)** users were targeted more frequently (~90% fraud in those groups), suggesting lower digital caution.
-
-4. What model is suitable for a small dataset with mixed (categorical + numeric) data?
-	**Implementation:**  
-	Used `DecisionTreeClassifier` because it handles both data types, needs minimal preprocessing, and provides visual interpretability.  
-	
-	**Insight:**  
-	The tree gave clear, rule-based decisions with decent accuracy (70%).
