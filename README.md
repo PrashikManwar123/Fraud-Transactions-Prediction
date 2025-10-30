@@ -24,7 +24,7 @@
 
 ### 3. Descriptive Statistics 
 
-![alt text](https://github.com/PrashikManwar123/Fraud-Transaction-Prediction/blob/main/description.png?raw=true)
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/description.png)
 
 **→ Insight:** Transaction amounts vary widely (from ≈$30 to $990), showing a diverse range of spending behavior. Cardholders between **30–60 years** represent the majority of transactions.  
 ### 4.  Exploratory Data Analysis
