@@ -14,6 +14,8 @@
 | `IsInternational` | Whether the transaction was international (Yes/No) |
 | `CardHolderAge`   | Age of the cardholder                              |
 | `FraudReported`   | Target variable — "Yes" or "No"                    |
+
+
 **Dataset size:** 50 transactions  
 **Fraud cases reported:** 29 (58%)  
 **Non-fraud cases:** 21 (42%)
@@ -22,7 +24,7 @@
 
 ### 3. Descriptive Statistics 
 
-![[Pasted image 20251028004542.png]]
+![alt text](https://github.com/PrashikManwar123/Fraud-Transaction-Prediction/blob/main/description.png?raw=true)
 
 **→ Insight:** Transaction amounts vary widely (from ≈$30 to $990), showing a diverse range of spending behavior. Cardholders between **30–60 years** represent the majority of transactions.  
 ### 4.  Exploratory Data Analysis
