@@ -45,7 +45,7 @@
  Three separate dataframes were created for:
  - <30 years
  - 30–60 years
- - >60 years
+ -  >60 years
  
 Fraud distribution within these groups shows that:
 
