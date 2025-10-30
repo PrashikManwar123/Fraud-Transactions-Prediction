@@ -41,6 +41,7 @@
 4. Age Group Analysis:
 
 ![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/fraud_with_age.png)
+
  Three separate dataframes were created for:
  - <30 years
  - 30–60 years
@@ -80,7 +81,7 @@ Online transactions have the highest probability of fraud, likely due to weaker 
 
 Category               Total Amount (USD)
 Fraudulent             **15,709.61**
-Non-Fraudulent     **11,440.59**
+Non-Fraudulent         **11,440.59**
 
 **→ Insight:**  
 Fraudulent transactions make up **58% of the data** but account for **~58% of the total transaction value**, showing that fraudulent activity affects both count and monetary scale.
