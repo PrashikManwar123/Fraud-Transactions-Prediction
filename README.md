@@ -45,7 +45,7 @@
  Three separate dataframes were created for:
  - <30 years
  - 30–60 years
- -  >60 years
+ - greater than 60 years
  
 Fraud distribution within these groups shows that:
 
@@ -131,6 +131,7 @@ Reason for Choice:
 | Precision | 0.80  |
 | Recall    | 0.67  |
 | F1-Score  | 0.73  |
+
 Precision (0.8) :  
 The model correctly identifies fraudulent transactions with **80% precision**, meaning that 8 out of 10 flagged transactions are truly fraud. This is good for business — customers aren’t unnecessarily flagged or blocked.
 
