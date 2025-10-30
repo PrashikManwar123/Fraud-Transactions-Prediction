@@ -33,14 +33,14 @@
 
 2. The number of **fraudulent international transactions** is higher than fraudulent domestic ones. This aligns with real-world behavior — international transactions are riskier due to cross-border verification and currency exchange.
 
-![[Pasted image 20251028004825.png]]  
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/heatmap_int_fr.png)  
 
 3. A scatter plot of `CardHolderAge` vs `Amount` shows that most cardholders fall in the **30–60 years** age range.) 
-![[Pasted image 20251028004953.png]]
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/cardholderAge_vs_amount.png)
 
 4. Age Group Analysis:
 
-![[Pasted image 20251028005242.png]]
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/fraud_with_age.png)
  Three separate dataframes were created for:
  - <30 years
  - 30–60 years
@@ -52,7 +52,7 @@ Fraud distribution within these groups shows that:
 - The **30–60** age group appears more cautious, with fewer fraud cases.
 
  4. Fraud and International Transaction Totals
- ![[Pasted image 20251028005359.png]]
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/total_no_fraud&int.png)
  Above graphs show total number of fraud, non-fraud, international and non-international transactions.
 
 Fraud - 29
@@ -64,13 +64,13 @@ Non-international(Domestic) - 23
 Fraudulent and international transactions occur at a comparable scale, hinting at a potential overlap between the two.
 
 7. Checking which transaction type is used by a particular age group
-![[Pasted image 20251028005505.png]]
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/TransactionTypeByAgeGroup.png)
 - People aged **30–60** prefer **ATM** and **Online** transactions.
     
 - Those **under 30** or **over 60** show mixed transaction patterns, potentially leading to higher risk exposure.
 
 8. Checking for fraud and non-fraud transactions in each transaction type
-![[Pasted image 20251028005535.png]]
+![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/fraud&NonFraudByTransactionType.png)
 Above graph shows that chances of fraud are highest in online and equal in POS and ATM type transactions.
 
 **→ Insight:**  
