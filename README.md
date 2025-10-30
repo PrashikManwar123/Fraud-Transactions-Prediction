@@ -54,6 +54,7 @@ Fraud distribution within these groups shows that:
 
  4. Fraud and International Transaction Totals
 ![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/total_no_fraud&int.png)
+
  Above graphs show total number of fraud, non-fraud, international and non-international transactions.
 
 Fraud - 29
@@ -66,12 +67,14 @@ Fraudulent and international transactions occur at a comparable scale, hinting a
 
 7. Checking which transaction type is used by a particular age group
 ![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/TransactionTypeByAgeGroup.png)
+
 - People aged **30–60** prefer **ATM** and **Online** transactions.
     
 - Those **under 30** or **over 60** show mixed transaction patterns, potentially leading to higher risk exposure.
 
 8. Checking for fraud and non-fraud transactions in each transaction type
 ![description](https://github.com/PrashikManwar123/Fraud-Transactions-Prediction/blob/main/fraud&NonFraudByTransactionType.png)
+
 Above graph shows that chances of fraud are highest in online and equal in POS and ATM type transactions.
 
 **→ Insight:**  
